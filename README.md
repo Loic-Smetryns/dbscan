@@ -68,4 +68,6 @@ print(f"Predicted labels: {labels}")
 
 ## License
 
-Distributed under the MIT License.
+Distributed under the **MIT License**. See the `LICENSE` file for more information.
+
+Copyright © 2025, Loïc Smetryns & Jean-Charles Boisson & Université de Reims Champagne-Ardenne.
