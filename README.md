@@ -1,10 +1,10 @@
 # dbscan 🦀🐍
 
-## A Python clustering library written in Rust.
+ ## A Python clustering library written in Rust.
 
 `dbscan` is a Python library designed for efficient density-based clustering. By leveraging a Rust-powered engine, it provides a significant speed boost over pure Python implementations for the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm, while remaining easy to use within the `NumPy` ecosystem.
 
-## Academic Context
+ ## Academic Context
 
 This project was developed as part of the **Second Year Integration Project (Projet Intégrateur)** of the **CMI Informatique (Cursus Master en Ingénierie)** at the **University of Reims Champagne-Ardenne (URCA)**, under the supervision of **Mr. Jean-Charles Boisson**.
 
@@ -20,7 +20,7 @@ This project was developed as part of the **Second Year Integration Project (Pro
 
 - Outlier Detection: Automatically identifies noise in the dataset, labeled with the usize::MAX constant.
 
-## Installation
+ ## Installation
 
 Prerequisites
 
@@ -39,7 +39,7 @@ pip install maturin
 maturin develop --release
 ```
 
-## Usage in Python
+ ## Usage in Python
 
 ```python
 import numpy as np
@@ -66,6 +66,6 @@ print(f"Predicted labels: {labels}")
 # Output: Predicted labels: [0 1]
 ```
 
-## License
+ ## License
 
 Distributed under the MIT License.
